@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const initDB = (() => {
     mongoose.connect(
-        //Mongo URL here ---> '',
+        'mongodb://admin:admin123@ds131905.mlab.com:31905/koa-graphql',
         { useNewUrlParser: true }
     );
 

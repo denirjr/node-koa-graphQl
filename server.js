@@ -8,7 +8,7 @@ const initDB = require('./database');
 
 const app = new Koa();
 
-app.listen(8080);
+app.listen(9000);
 
 app.use(mount('/graphql', graphqlHTTP({
   schema: schema,
